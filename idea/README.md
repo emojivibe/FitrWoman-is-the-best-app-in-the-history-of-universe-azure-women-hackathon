@@ -15,9 +15,9 @@ We researched and found that there are many apps for women,but they are limited 
 # Main Features
 1. Available in multiple languages
 2. Smart AI Disease Detection
-3.Easy to use BMI Calculator
-4.Easy to book an appointment with doctor
-5.Smart Chatbot
+3. Easy to use BMI Calculator
+4. Easy to book an appointment with doctor
+5. Smart Chatbot
 
 # Methodology
 1. For frontend we have used React Js.
