@@ -20,6 +20,10 @@ This website is equitable,accessible and user friendly.
 5. Smart Chatbot
 
 # Methodology
+  # Techstack
+  ![Screenshot (681)](https://user-images.githubusercontent.com/94471257/174653902-1678d4cd-bcd6-440e-8543-5b0b9eb11595.png)
+
+  
 1. For frontend we have used React Js.
 2. For Disease prediction we have used Flask in backend.
 3. For styling we have used Styled Components.
