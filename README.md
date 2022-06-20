@@ -22,7 +22,7 @@ This website is equitable,accessible and user friendly.
 2. For Disease prediction we have used Flask in backend.
 3. For styling we have used Styled Components.
 
-#Credit
+# Credit
 https://github.com/Harshal0902/Women-Essential
 
 
