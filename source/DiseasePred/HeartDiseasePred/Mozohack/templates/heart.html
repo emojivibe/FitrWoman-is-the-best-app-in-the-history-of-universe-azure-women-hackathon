@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet" type="text/css"
+		href="{{ url_for('static', filename='fonts/font-awesome-4.7.0/css/font-awesome.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css')}}">
+</head>
+<body>
+    <nav>
+        Navigation
+    </nav>
+<!--    
+	<form action = "http://localhost:5000/uploader" method = "POST" 
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+      </form>    -->
+
+    <div class="selectImg">
+        <label for="img">Select image:</label>
+        <input type="file" id="img" name="img" accept="image/*">
+    </div>
+
+
+    <div class="selectModel">
+        <label for="Model" class="ModelTitle">Select Modle</label>
+        <select name="Model" id="Model">
+            <option value="ResNet18">ResNet18</option>
+            <option value="SqueezeNet">SqueezeNet1.0</option>
+        </select>
+    </div>
+
+    <div class="ExpMethod">
+        <label for="Model">Select Explainability Modle</label>
+        <select name="Model" id="Model">
+            <option value="GradCAM">Grad-CAM</option>
+            <option value="GradCAMpp">Grad-CAM++</option>
+        </select>
+    </div>
+
+        <input type="submit">
+
+
+		<script src="{{ url_for('static', filename='#')}}"></script>
+		<script src="{{ url_for('static', filename='#')}}"></script>
+</body>
+</html>
