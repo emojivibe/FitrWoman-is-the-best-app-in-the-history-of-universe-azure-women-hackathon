@@ -1,4 +1,4 @@
-# hackathon-submission-template
+# Hackathon-submission-template
 Please use this template for submitting solutions for the Microsoft Azure Women's Hackathon 2022
 
 # Website
@@ -24,9 +24,16 @@ This website is equitable,accessible and user friendly.
   ![Screenshot (681)](https://user-images.githubusercontent.com/94471257/174653902-1678d4cd-bcd6-440e-8543-5b0b9eb11595.png)
 
   
-1. For frontend we have used React Js.
-2. For Disease prediction we have used Flask in backend.
-3. For styling we have used Styled Components.
+1. Frontend Server:
+    * ReactJs
+    * HTML- for sytling basic output.
+    * CSS- for styled components.
+    
+2. Backend Server:
+    * Flask- for disease prediction
+    
+3. Data Management (Databases):
+    * FireStore
 
 # Credit
 https://github.com/Harshal0902/Women-Essential
